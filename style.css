@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.img-cabecero {
+  position: absolute;
+  width: 100vw;
+  height: 20%;
+  object-fit: cover;
+  object-position: bottom;
+}
+.logo {
+  position: relative;
+  width: 30%;
+}
+#cabecero-logo {
+  padding: 30px;
+  text-align: center;
+}
+#menu {
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+}
+nav li {
+  display: inline-block;
+  width: 10%;
+  padding: 5px 10px;
+  background-color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  color: #fff;
+}
+nav li:hover {
+  background-color: #fff;
+  color: #000;
+}
+#carouselExample{
+    height: 200px;
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-inner{
+    height: 100%;
+}
+
+.carousel-item{
+    height: 100%;
+    
+}
+
+img{
+    height: 100%;
+    width: 50vw;
+    position: absolute;
+}
