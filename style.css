@@ -59,3 +59,33 @@ img{
     width: 50vw;
     position: absolute;
 }
+
+#menu #buscador {
+  position: absolute;
+  top: 123px;
+  right: 20px;
+}
+
+#menu #buscador legend {
+  display: none;
+}
+
+#menu #buscador fieldset {
+  border: none;
+}
+
+#buscar{
+  border:1px solid #CCCCCC;
+}
+
+.boton-personalizado{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #005BBB;
+  
+}
