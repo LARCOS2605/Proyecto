@@ -19,6 +19,7 @@ body {
 }
 #menu {
   text-align: center;
+  background-color: #bd1717;
 }
 nav a {
   text-decoration: none;
@@ -27,7 +28,7 @@ nav a {
 }
 nav li {
   display: inline-block;
-  width: 10%;
+  width: 15%;
   padding: 5px 10px;
   background-color: #000;
   border: 1px solid #000;
@@ -39,7 +40,8 @@ nav li:hover {
   color: #000;
 }
 #carouselExample{
-    height: 200px;
+    top:-15px;
+    height: 300px;
     display: flex;
     background-color: gray;
     align-items: center;
@@ -49,9 +51,19 @@ nav li:hover {
     height: 100%;
 }
 
-.carousel-item{
-    height: 100%;
-    
+#banner1{
+  height: 50vh;
+  width: 100vw;
+}
+
+#banner2{
+  height: 80vh;
+  width: 100vw;
+}
+
+#banner3{
+  height: 80vh;
+  width: 100vw;
 }
 
 img{
@@ -62,7 +74,7 @@ img{
 
 #menu #buscador {
   position: absolute;
-  top: 123px;
+  top: 10px;
   right: 20px;
 }
 
@@ -75,7 +87,7 @@ img{
 }
 
 #buscar{
-  border:1px solid #CCCCCC;
+  border:1px solid #005BBB;
 }
 
 .boton-personalizado{
@@ -87,5 +99,59 @@ img{
   padding-left: 10px;
   padding-right: 10px;
   background-color: #005BBB;
-  
+  border-radius: 4px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intermedio{ 
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bd1717;
+  margin-top: -14px;
+}
+
+p{
+  font-size: 20px;
+  color: #fff;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+.card-container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 100px;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.card{
+  background: linear-gradient(68deg, #ffffff, #f8f8f8); /* sea difuminado*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  max-width: 400px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 5px 15px;
+  border: 1px solid rgb(245, 2, 2);
+  overflow: auto;
+}
+
+.imagen-categoria1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.imagen-categoria2{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.imagen-categoria3{
+  grid-column-start: 5;
+  grid-column-end: 7;
 }
